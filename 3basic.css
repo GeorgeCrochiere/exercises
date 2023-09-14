@@ -1,13 +1,11 @@
 :root {
-    --basic: #0F0;
-    /*-- variable declaration --*/
+    --basic: #0F0; /*-- variable declaration --*/
     font-family: 'Times New Roman', Garamond, serif;
     background-color: #fff8dc;
 }
 
 a:link,
-a:visited {
-    /*-- and-selector --*/
+a:visited { /*-- and-selector --*/
     color: var(--basic);
 }
 
@@ -16,8 +14,7 @@ a:visited {
     text-decoration: none;
 }
 
-#unique {
-    /*-- id selector --*/
+#unique { /*-- id selector --*/
     display: block;
 }
 
@@ -26,25 +23,21 @@ a:visited {
     text-transform: uppercase;
 }
 
-h1 {
-    /*-- type selector --*/
+h1 { /*-- type selector --*/
     text-align: center;
     text-shadow: 1px 1px rgba(0, 0, 0, 0.25);
 }
 
-li>a {
-    /*-- child selector --*/
+li>a { /*-- child selector --*/
     font-weight: 600;
 }
 
-main h1 {
-    /*-- descendent selector --*/
+main h1 { /*-- descendent selector --*/
     font-size: 1rem;
     line-height: 1.2;
     letter-spacing: 1px;
 }
 
-img+p {
-    /*-- adjacent sibling selector --*/
+img+p { /*-- adjacent sibling selector --*/
     font-style: italic;
 }
