@@ -1,6 +1,6 @@
 :root {
     font-size: 62.5%;
-    --std: all .3s ease ease-in; /*-- another variable --*/
+    --std: all .3s ease-in; /*-- another variable --*/
 }
 body {
     width: 100vw;
@@ -19,11 +19,11 @@ nav.main-nav {
 /*-- flex item --*/
 a.nav-item {
     justify-self: self-end;
-    align-self: felx-start;
+    align-self: flex-start;
     flex: 0 1 auto; /*-- grow, shrink, basis --*/
     transition: var(--std);
 }
-a.nav-item:last-of-type {
+a.nav-item:last-of-type { /*--last-of-type selector --*/
     margin-left: auto;
 }
 .box {
